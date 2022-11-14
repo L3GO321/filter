@@ -1,0 +1,23 @@
+.toolbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 5px;
+  margin-bottom: 15px;
+}
+
+.input_radio {
+  display: none;
+}
+
+.toolbar_item {
+  cursor: pointer;
+  border: 1px solid #555960;
+  padding: 3px;
+  color: #555960
+}
+
+.toolbar_item__cheked {
+  background-color: #555960;
+  color: #fff;
+}
